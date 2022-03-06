@@ -51,13 +51,13 @@
 #define IMLIB_ENABLE_MIDPOINT
 
 // Enable morph()
-#define IMLIB_ENABLE_MORPH
+//#define IMLIB_ENABLE_MORPH
 
 // Enable Gaussian
-#define IMLIB_ENABLE_GAUSSIAN
+//#define IMLIB_ENABLE_GAUSSIAN
 
 // Enable Laplacian
-#define IMLIB_ENABLE_LAPLACIAN
+//#define IMLIB_ENABLE_LAPLACIAN
 
 // Enable bilateral()
 #define IMLIB_ENABLE_BILATERAL
@@ -83,25 +83,25 @@
 #endif
 
 // Enable get_similarity()
-#define IMLIB_ENABLE_GET_SIMILARITY
+//#define IMLIB_ENABLE_GET_SIMILARITY
 
 // Enable find_lines()
-#define IMLIB_ENABLE_FIND_LINES
+//#define IMLIB_ENABLE_FIND_LINES
 
 // Enable find_line_segments()
-#define IMLIB_ENABLE_FIND_LINE_SEGMENTS
+//#define IMLIB_ENABLE_FIND_LINE_SEGMENTS
 
 // Enable find_circles()
-#define IMLIB_ENABLE_FIND_CIRCLES
+//#define IMLIB_ENABLE_FIND_CIRCLES
 
 // Enable find_rects()
 #define IMLIB_ENABLE_FIND_RECTS
 
 // Enable find_qrcodes() (14 KB)
-#define IMLIB_ENABLE_QRCODES
+//#define IMLIB_ENABLE_QRCODES
 
 // Enable find_apriltags() (64 KB)
-#define IMLIB_ENABLE_APRILTAGS
+//#define IMLIB_ENABLE_APRILTAGS
 
 // Enable fine find_apriltags() - (8-way connectivity versus 4-way connectivity)
 // #define IMLIB_ENABLE_FINE_APRILTAGS
@@ -110,10 +110,10 @@
 // #define IMLIB_ENABLE_HIGH_RES_APRILTAGS
 
 // Enable find_datamatrices() (26 KB)
-#define IMLIB_ENABLE_DATAMATRICES
+//#define IMLIB_ENABLE_DATAMATRICES
 
 // Enable find_barcodes() (42 KB)
-#define IMLIB_ENABLE_BARCODES
+//#define IMLIB_ENABLE_BARCODES
 
 // Enable CMSIS NN
 // #if !defined(CUBEAI)
@@ -129,16 +129,16 @@
 // #define IMLIB_ENABLE_FAST
 
 // Enable find_template()
-#define IMLIB_FIND_TEMPLATE
+//#define IMLIB_FIND_TEMPLATE
 
 // Enable find_lbp()
-#define IMLIB_ENABLE_FIND_LBP
+//#define IMLIB_ENABLE_FIND_LBP
 
 // Enable find_keypoints()
-#define IMLIB_ENABLE_FIND_KEYPOINTS
+//#define IMLIB_ENABLE_FIND_KEYPOINTS
 
 // Enable load, save and match descriptor
-#define IMLIB_ENABLE_DESCRIPTOR
+//#define IMLIB_ENABLE_DESCRIPTOR
 
 // Enable find_hog()
 // #define IMLIB_ENABLE_HOG
@@ -150,7 +150,7 @@
 #define IMLIB_ENABLE_DMA2D
 
 // Enable PNG encoder/decoder
-#define IMLIB_ENABLE_PNG_ENCODER
-#define IMLIB_ENABLE_PNG_DECODER
+//#define IMLIB_ENABLE_PNG_ENCODER
+//#define IMLIB_ENABLE_PNG_DECODER
 
 #endif //__IMLIB_CONFIG_H__
